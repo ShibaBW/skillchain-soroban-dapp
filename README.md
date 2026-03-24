@@ -1,39 +1,40 @@
 # SkillChain
 
-SkillChain is a Stellar Soroban dApp for issuing and viewing on-chain student skill certificates on Stellar Testnet.
+SkillChain is a blockchain-based certification platform that turns student achievements into verifiable on-chain proof.
 
-## Stack
+Built on the Stellar network using Soroban smart contracts, SkillChain allows institutions or organizations to issue digital skill certificates directly to a student's wallet. These certificates are stored on-chain and can be verified by employers instantly.
 
-- Next.js
-- TypeScript
-- TailwindCSS
-- `@stellar/stellar-sdk`
-- Freighter wallet integration
+The platform eliminates the risk of fake certificates and creates a transparent system for verifying skills and achievements.
 
-## Contract
+## Features
 
-- Network: Stellar Testnet
-- Contract ID: `CCVGPROHA2IBHEF673TDTAQDRW2HSQMKHRDP5H3TYFVCCCI5ANJYA34F`
-- Functions:
-  - `issue_skill(student: Address, skill: Symbol)`
-  - `get_skills(student: Address)`
+- Connect wallet using Freighter
+- Issue skill certificates to a student wallet
+- Store skill records on-chain
+- Query and verify student skills
+- Fully decentralized and tamper-proof
 
-## Project Structure
+## Tech Stack
 
-```text
-.
-├── components
-├── contracts
-├── lib
-│   └── stellar.ts
-├── pages
-│   ├── _app.tsx
-│   └── index.tsx
-├── styles
-│   └── globals.css
-├── Cargo.toml
-└── package.json
-```
+- Stellar Blockchain
+- Soroban Smart Contracts
+- React / Next.js Frontend
+- Freighter Wallet
+- Node.js
+
+## How it works
+
+1. User connects their wallet via Freighter.
+2. A skill certificate is issued to a student's wallet.
+3. The certificate is stored on the Stellar blockchain.
+4. Anyone can verify the student's skills by querying the contract.
+
+## Future Improvements
+
+- NFT based certificates
+- University issuer verification
+- Employer verification portal
+- Skill reputation scoring
 
 ## Getting Started
 
