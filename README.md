@@ -1,3 +1,30 @@
+## About Me
+
+Name: Tuong Truong
+
+I am a software engineering student passionate about blockchain technology, decentralized applications, and building real-world Web3 solutions. My goal is to create applications that solve real problems using decentralized technologies such as Stellar and Soroban smart contracts. This project is part of my journey to explore blockchain development and build practical decentralized applications.
+
+## Vision
+
+The vision of SkillChain is to create a global, decentralized verification system for skills and achievements. By storing certifications on the blockchain, students can prove their skills anywhere in the world without relying on centralized institutions. Employers can instantly verify credentials without paperwork, making hiring faster and more trustworthy.
+
+##PROJECT NAME: SkillChain
+#PROBLEM: Students and job seekers often struggle to prove the authenticity of their skills and certificates. Fake certificates and unverifiable achievements create trust issues for employers.
+#SOLUTION: SkillChain uses Stellar Soroban smart contracts to issue and store skill certificates on-chain, allowing anyone to verify achievements instantly and securely.
+#STELLAR FEATURES USED
+[ ] Transfer XLM/USDC
+[ ] Custom Tokens
+[x] Soroban Smart Contract
+[ ] Integrated DEX
+[ ] Trustline
+[ ] Compliance / Clawback
+#TARGET USER
+Students
+Universities
+Training platforms
+Employers verifying skills
+#CORE FEATURES (MVP): Issue a skill certificate to a student's wallet and store it permanently on the Stellar blockchain.
+#WHY STELLAR: Traditional certificate verification requires manual checking and can take days. Using Stellar allows instant verification with extremely low transaction fees and global accessibility.
 # SkillChain
 
 SkillChain is a blockchain-based certification platform that turns student achievements into verifiable on-chain proof.
