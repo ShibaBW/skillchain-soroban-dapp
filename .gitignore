@@ -1,0 +1,15 @@
+# Rust's output directory
+target
+
+# Local settings
+.soroban
+.stellar
+
+# Next.js frontend
+node_modules
+.next
+out
+.env
+dist
+target
+.DS_Store
